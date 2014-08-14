@@ -1,0 +1,36 @@
+<html  ng-app="decalApp">
+<head>
+  <link href='http://fonts.googleapis.com/css?family=Cabin:400,500,600,700,400italic,500italic,600italic,700italic|Source+Sans+Pro:300,300italic|Arvo:400,700' rel='stylesheet' type='text/css'>
+
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/index.css" />
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular-route.min.js"></script>
+
+  <script src="js/script.js"></script>
+</head>
+
+<body>
+  <nav>
+    <a href="#" class="nav-home"><img src="images/logo.png" /></a>
+    <ul>
+      <li><a href="#/apply">Apply</a></li>
+      <li><a href="#/contact">Contact</a></li>
+      <li><a href="#/team">Team</a></li>
+
+    </ul>
+  </nav>
+    
+  <div class="main">
+    <div ng-controller="mainController">
+
+      <div ng-view class="slide"></div>
+
+
+  </div>
+    
+</body>
+</html>

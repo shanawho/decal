@@ -1,0 +1,491 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  color: black; }
+
+* {
+  box-sizing: border-box; }
+
+ul li {
+  list-style-type: none;
+  font-family: "Source Sans Pro", sans-serif; }
+
+nav {
+  background-color: #252930; }
+  nav img {
+    margin: 7.5px;
+    height: 30px;
+    width: auto; }
+    @media (max-width: 800px) {
+      nav img {
+        width: 150px; } }
+    @media (max-width: 570px) {
+      nav img {
+        display: block;
+        margin: 0 auto;
+        width: 150px; } }
+  nav ul {
+    float: right;
+    margin-right: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 0;
+    height: 30px; }
+    @media (max-width: 570px) {
+      nav ul {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        float: none;
+        height: 30px; } }
+    nav ul li {
+      display: inline-block;
+      margin: 0 20px;
+      font-family: "Source Sans Pro", sans-serif; }
+
+.nav-home {
+  padding-left: 30px; }
+
+.squares {
+  display: inline-block;
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+.square {
+  width: 25%;
+  height: 0;
+  padding-bottom: 25%;
+  list-style-type: none;
+  background-color: #444444;
+  position: relative;
+  float: left; }
+  @media (max-width: 1000px) {
+    .square {
+      width: 33%;
+      padding-bottom: 33%; } }
+  @media (max-width: 800px) {
+    .square {
+      width: 50%;
+      padding-bottom: 50%; } }
+  @media (max-width: 450px) {
+    .square {
+      width: 100%;
+      padding-bottom: 100%; } }
+  .square:hover {
+    background-color: #222222; }
+
+.square-blurb {
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out; }
+  .square-blurb:hover {
+    opacity: 0.8;
+    background-color: #3498db; }
+    .square-blurb:hover .lesson-title {
+      opacity: 1; }
+
+.square-1 {
+  background: url("../images/lesson1.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat; }
+
+.square-2 {
+  background: url("../images/lesson2.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat; }
+
+.square-3 {
+  background: url("../images/hpmovie.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat; }
+
+.square-4 {
+  background: url("../images/brush.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat; }
+
+.square-5 {
+  background: url("../images/hpmovie.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat; }
+
+.square-6 {
+  background: url("../images/hpmovie.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat; }
+
+.square-7 {
+  background: url("../images/hpmovie.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat; }
+
+.square-9 {
+  background: url("../images/hpmovie.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat; }
+  .square-9:hover {
+    opacity: 1; }
+
+.square-12 {
+  background: url("../images/showcase.jpg");
+  background-size: auto 100%;
+  background-position: 70%; }
+
+.square-text {
+  position: relative;
+  top: 35%;
+  text-align: center;
+  color: white; }
+
+.week {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.3em; }
+
+.lesson-title {
+  display: block;
+  margin: 0 30px;
+  font-family: "Arvo", Helvetica, sans-serif;
+  font-size: 2em; }
+
+.lesson-link {
+  width: 100%;
+  height: 100%; }
+  .lesson-link:visited {
+    text-decoration: none;
+    decoration: none; }
+
+.download {
+  position: relative;
+  color: white;
+  font-size: 0.8em;
+  text-align: center;
+  border: 1px white solid;
+  margin: 0 auto;
+  width: 190px;
+  margin-top: -20px;
+  background: #3498db; }
+  @media (max-width: 450px) {
+    .download {
+      width: 150px;
+      font-size: 0.6em; } }
+
+.rest {
+  width: 70%;
+  margin: 0 auto; }
+  @media (max-width: 450px) {
+    .rest {
+      width: 90%; } }
+
+.preheader, .subheader, .date {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  font-size: 1.8em;
+  display: block; }
+  @media (max-width: 570px) {
+    .preheader, .subheader, .date {
+      font-size: 1.2em; } }
+
+.subheader {
+  margin-left: 30px; }
+
+.title {
+  background-color: #3498db;
+  padding: 60px 15%;
+  color: white;
+  margin: 0 auto;
+  text-align: center; }
+  @media (max-width: 1000px) {
+    .title {
+      padding: 30px 15%; } }
+  @media (max-width: 800px) {
+    .title {
+      padding: 30px -5 15%; } }
+  @media (max-width: 450px) {
+    .title {
+      padding: 15px 15%; } }
+  .title p {
+    font-size: 1.3em; }
+
+.home-link {
+  position: absolute;
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+  top: 0;
+  left: 0; }
+  .home-link img {
+    width: 15px;
+    height: auto;
+    margin: 10px; }
+
+a {
+  text-decoration: none;
+  color: white; }
+
+.main {
+  width: 100%; }
+
+.bg-img {
+  width: 100%;
+  height: auto;
+  z-index: -1000; }
+
+.divider {
+  width: 100%;
+  height: 5px;
+  background-color: #444444; }
+
+.line {
+  margin-top: 30px;
+  display: block;
+  min-height: 330px; }
+  .line:last-child {
+    margin-bottom: 90px; }
+
+.footer {
+  margin-bottom: 30px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  display: none; }
+
+.timeline {
+  list-style-type: none; }
+  .timeline li {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.3em; }
+  .timeline a {
+    color: #252930; }
+
+.team-list {
+  color: white;
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+.team-profile {
+  width: 33%;
+  height: 0;
+  padding-bottom: 33%;
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+  overflow: hidden; }
+  @media (max-width: 800px) {
+    .team-profile {
+      width: 50%;
+      padding-bottom: 50%; } }
+  @media (max-width: 450px) {
+    .team-profile {
+      width: 100%;
+      padding-bottom: 100%; } }
+
+.team-pic-crop {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  overflow: hidden; }
+
+.team-pic {
+  width: 100%; }
+
+.team-name {
+  position: absolute;
+  top: -50px;
+  left: 10px;
+  font-family: "Arvo", Helvetica, sans-serif;
+  font-size: 2.7em;
+  color: #252930;
+  font-weight: 300; }
+
+.team-bio {
+  position: absolute;
+  padding-top: 30px;
+  width: 100%;
+  height: 100%;
+  background-color: #3498db;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  opacity: 0;
+  bottom: 0; }
+  .team-bio:hover {
+    opacity: 1; }
+
+.steps {
+  border: 3px solid #3498db;
+  padding: 30px; }
+  .steps li {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.5em;
+    margin-left: 30px; }
+
+.hours {
+  display: inline-block;
+  font-family: "Source Sans Pro", sans-serif;
+  list-style: none;
+  padding: 0; }
+  .hours > li {
+    list-style-type: none; }
+
+.subsection ul li {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.5em;
+  list-style-type: none; }
+
+.col1of3 {
+  width: 33%;
+  float: left; }
+
+.col2of3 {
+  width: 66%;
+  float: left; }
+
+.section-img {
+  width: 300px;
+  height: auto;
+  float: left;
+  margin: 0 30px;
+  margin-bottom: 30px; }
+  .section-img img {
+    width: 100%;
+    height: auto; }
+
+.date {
+  position: relative;
+  float: right; }
+
+h1 {
+  font-family: "Arvo", Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 3.6em;
+  color: white;
+  margin: 0 auto;
+  text-align: center; }
+  @media (max-width: 1000px) {
+    h1 {
+      font-size: 2.8em; } }
+  @media (max-width: 800px) {
+    h1 {
+      font-size: 2.1em; } }
+  @media (max-width: 570px) {
+    h1 {
+      font-size: 1.4em; } }
+
+h2 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 100;
+  font-size: 2em;
+  margin: 0 auto; }
+  @media (max-width: 800px) {
+    h2 {
+      font-size: 1.5em; } }
+
+h3 {
+  font-family: "Arvo", Helvetica, sans-serif;
+  font-weight: 200;
+  font-size: 2.2em;
+  margin: 10px auto 0 auto;
+  text-align: center; }
+
+h4 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 100;
+  font-size: 1.3em;
+  margin: 0;
+  text-align: center; }
+
+p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  font-size: 1.5em;
+  margin: 10px 30px; }
+
+.highlight {
+  font-weight: bold;
+  color: #3498db; }
+
+.apply-section {
+  margin-top: 60px; }
+  .apply-section:last-child {
+    text-align: center;
+    margin-bottom: 60px; }
+
+.arrow-text {
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  opacity: 0;
+  left: -1%; }
+
+.fa-chevron-left {
+  position: absolute;
+  color: white;
+  text-decoration: none;
+  top: 150px;
+  padding: 5px;
+  opacity: 0.5;
+  transition: opacity 0.3s;
+  left: 60px; }
+  @media (max-width: 1000px) {
+    .fa-chevron-left {
+      top: 120px; } }
+  @media (max-width: 800px) {
+    .fa-chevron-left {
+      top: 90px; } }
+  @media (max-width: 450px) {
+    .fa-chevron-left {
+      top: 120px; } }
+  .fa-chevron-left:hover {
+    transition: opacity 0.3s;
+    opacity: 1; }
+  @media (max-width: 800px) {
+    .fa-chevron-left {
+      left: 30px; } }
+  .fa-chevron-left:visited {
+    color: white; }
+  .fa-chevron-left:hover .arrow-text {
+    opacity: 1;
+    left: 0; }
+
+.fa-chevron-right {
+  position: absolute;
+  color: white;
+  text-decoration: none;
+  top: 150px;
+  padding: 5px;
+  opacity: 0.5;
+  transition: opacity 0.3s;
+  right: 60px; }
+  @media (max-width: 1000px) {
+    .fa-chevron-right {
+      top: 120px; } }
+  @media (max-width: 800px) {
+    .fa-chevron-right {
+      top: 90px; } }
+  @media (max-width: 450px) {
+    .fa-chevron-right {
+      top: 120px; } }
+  .fa-chevron-right:hover {
+    transition: opacity 0.3s;
+    opacity: 1; }
+  @media (max-width: 800px) {
+    .fa-chevron-right {
+      right: 30px; } }
+  .fa-chevron-right:visited {
+    color: white; }
+  .fa-chevron-right:hover .arrow-text {
+    opacity: 1;
+    left: 0; }

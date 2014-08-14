@@ -1,0 +1,544 @@
+$inactiveColor: #ADADAD
+$activeColor: #000
+$title-fonts: "Arvo", Helvetica, sans-serif
+$body-fonts: "Source Sans Pro", sans-serif
+
+$team-profile-size: 300px
+$mainBlue: #3498db
+$magenta: #FF5ED0
+
+
+$black: #252930
+$white: #FFF
+
+$preheader-font-size: 1.8em
+
+$margin-unit: 30px
+
+
+@mixin breakpoint($width)
+  @if $width == third
+    @media (max-width: 1000px)
+      @content
+  @else if $width == half
+    @media (max-width: 800px)
+      @content
+  @else if $width == half-shift
+    @media (max-width: 570px)
+      @content
+  @else if $width == single
+    @media (max-width: 450px)
+      @content
+
+@mixin chevron($dir)
+  position: absolute
+  color: $white
+  text-decoration: none
+  top: 5 * $margin-unit
+  padding: 5px
+  opacity: .5
+  transition: opacity .3s
+
+
+  @include breakpoint(third)
+    top: 4 * $margin-unit
+  @include breakpoint(half)
+    top: 3 * $margin-unit
+  @include breakpoint(single)
+    top: 4 * $margin-unit
+
+  &:hover
+    transition: opacity .3s
+    opacity: 1
+
+  @if $dir == left
+    left: 2 * $margin-unit
+    @include breakpoint(half)
+      left: $margin-unit
+
+  @if $dir == right
+    right: 2 * $margin-unit
+
+    @include breakpoint(half)
+      right: $margin-unit
+      
+
+  &:visited
+    color: $white
+
+  &:hover
+    & .arrow-text 
+      opacity: 1
+      left: 0
+
+@mixin square-bg
+  background-size: 100% auto
+  background-repeat: no-repeat
+
+body,
+html
+  margin: 0
+  padding: 0
+  height: 100%
+  color: $activeColor
+
+*
+  box-sizing: border-box
+
+ul li
+  list-style-type: none
+  font-family: $body-fonts
+
+nav 
+  background-color: $black
+
+  img
+    margin: $margin-unit /4
+    height: 30px
+    width: auto
+
+    @include breakpoint(half)
+      width: 150px
+    @include breakpoint(half-shift)
+      display: block
+      margin: 0 auto
+      width: 150px
+
+  ul
+    float: right
+    margin-right: $margin-unit
+    margin-top: 15px
+    margin-bottom: 15px
+    padding-left: 0
+    height: 30px
+
+    @include breakpoint(half-shift)
+      display: block
+      text-align: center
+      margin: 0 auto
+      float: none
+      height: 30px
+
+    li
+      display: inline-block
+      margin: 0 20px
+      font-family: $body-fonts
+
+.nav-home
+  padding-left: $margin-unit
+
+
+
+.squares
+  display: inline-block
+  width: 100%
+  list-style: none
+  padding: 0
+  margin: 0
+
+
+.square
+  width: 25%
+  height: 0
+  padding-bottom: 25%
+  list-style-type: none
+  background-color: #444
+  position: relative
+  float: left
+
+  @include breakpoint(third)
+    width: 33%
+    padding-bottom: 33%
+  @include breakpoint(half)
+    width: 50%
+    padding-bottom: 50%
+  @include breakpoint(single)
+    width: 100%
+    padding-bottom: 100%
+
+  &:hover
+    background-color: #222
+
+.square-blurb
+  opacity: 0
+  position: absolute
+  width: 100%
+  height: 100%
+  -webkit-transition: all 0.3s ease-in-out
+  -moz-transition:    all 0.3s ease-in-out
+  -o-transition:      all 0.3s ease-in-out
+
+  &:hover
+    opacity: .8
+    background-color: $mainBlue
+
+    & .lesson-title
+      opacity: 1
+
+.square-1
+  background: url('../images/lesson1.png')
+  @include square-bg
+
+.square-2
+  background: url('../images/lesson2.png')
+  @include square-bg
+
+.square-3
+  background: url('../images/hpmovie.jpg')
+  @include square-bg
+
+.square-4
+  background: url('../images/brush.png')
+  @include square-bg
+
+.square-5
+  background: url('../images/hpmovie.jpg')
+  @include square-bg
+
+.square-6
+  background: url('../images/hpmovie.jpg')
+  @include square-bg
+
+.square-7
+  background: url('../images/hpmovie.jpg')
+  @include square-bg
+
+.square-8
+
+.square-9
+  background: url('../images/hpmovie.jpg')
+  @include square-bg
+
+  &:hover
+    opacity: 1
+
+.square-10
+
+.square-11
+
+.square-12
+  background: url('../images/showcase.jpg')
+  @mixin square-bg
+  background-size: auto 100%
+  background-position: 70%
+
+
+.square-text 
+  position: relative
+  top: 35%
+  text-align: center
+  color: $white
+
+
+.week
+  font-family: $body-fonts
+  font-size: 1.3em
+
+.lesson-title
+  display: block
+  margin: 0 $margin-unit
+  font-family: $title-fonts
+  font-size: 2em
+
+.lesson-link
+  width: 100%
+  height: 100%
+
+  &:visited
+    text-decoration: none
+    decoration: none
+
+.download
+  position: relative
+  color: $white
+  font-size: .8em
+  text-align: center
+  border: 1px $white solid
+  margin: 0 auto
+  width: 190px
+  margin-top: -20px
+  background: $mainBlue
+
+  @include breakpoint(single)
+    width: 150px
+    font-size: .6em
+
+.rest
+  width: 70%
+  margin: 0 auto
+
+  @include breakpoint(single)
+    width: 90%
+
+.preheader
+  font-family: $body-fonts
+  font-weight: 300
+  font-size: $preheader-font-size
+  display: block
+
+  @include breakpoint(half-shift)
+    font-size: 1.2em
+
+.subheader
+  @extend .preheader
+  margin-left: $margin-unit
+
+.title
+  background-color: $mainBlue
+  padding: 2 * $margin-unit 15%
+  color: $white
+  margin: 0 auto
+  text-align: center
+
+  @include breakpoint(third)
+    padding: $margin-unit 15%
+  @include breakpoint(half)
+    padding: $margin-unit -5 15%
+  @include breakpoint(single)
+    padding: $margin-unit /2 15%
+
+
+  & p
+    font-size: 1.3em
+
+.home-link
+  position: absolute
+  color: $white
+  font-family: $body-fonts
+  top: 0
+  left: 0
+
+  & img
+    width: 15px
+    height: auto
+    margin: 10px
+
+
+
+a
+  text-decoration: none
+  color: $white
+
+.main
+  width: 100%
+
+.bg-img
+  width: 100%
+  height: auto
+  z-index: -1000
+
+.divider
+  width: 100%
+  height: 5px
+  background-color: #444
+
+.line
+  margin-top: $margin-unit
+  display: block
+  min-height: 330px
+
+  &:last-child
+    margin-bottom: 3 * $margin-unit
+
+.footer
+  margin-bottom: $margin-unit
+  width: 100%
+  position: absolute
+  bottom: 0
+  display: none
+
+.timeline
+  list-style-type: none
+  
+  li 
+    font-family: $body-fonts
+    font-size: 1.3em
+
+  a
+    color: $black
+
+.team-list
+  color: $white
+  display: inline-block
+  list-style: none
+  padding: 0
+  margin: 0
+
+
+.team-profile
+  width: 33%
+  height: 0
+  padding-bottom: 33%
+
+  @include breakpoint(half)
+    width: 50%
+    padding-bottom: 50%
+  @include breakpoint(single)
+    width: 100%
+    padding-bottom: 100%
+
+  position: relative
+  display: inline-block
+  margin: 0 auto
+  overflow: hidden
+
+.team-pic-crop
+  position: relative
+  display: block
+  margin: 0 auto
+  overflow: hidden
+
+
+.team-pic
+  width: 100%
+
+.team-name
+  position: absolute
+  top: -50px
+  left: 10px
+  font-family: $title-fonts
+  font-size: 2.7em
+  color: $black
+  font-weight: 300
+
+
+.team-bio
+  position: absolute
+  padding-top: $margin-unit
+  width: 100%
+  height: 100%
+  background-color: $mainBlue
+  -webkit-transition: all 0.3s ease-in-out
+  -moz-transition:    all 0.3s ease-in-out
+  -o-transition:      all 0.3s ease-in-out
+  opacity: 0
+  bottom: 0
+
+  &:hover
+    opacity: 1
+
+
+.steps 
+  border: 3px solid $mainBlue
+  padding: $margin-unit
+
+  li
+    font-family: $body-fonts
+    font-size: 1.5em
+    margin-left: $margin-unit
+
+.hours
+  display: inline-block
+  font-family: $body-fonts
+  list-style: none
+  padding: 0
+
+  &>li
+    list-style-type: none
+
+.subsection
+  & ul li
+    font-family: $body-fonts
+    font-size: 1.5em
+    list-style-type: none
+
+.col1of3
+  width: 33%
+  float: left
+
+.col2of3
+  width: 66%
+  float: left
+
+
+.section-img
+  width: 300px
+  height: auto
+  float: left
+  margin: 0 $margin-unit
+  margin-bottom: $margin-unit
+
+  img
+    width: 100%
+    height: auto
+
+.date
+  @extend .preheader
+  position: relative
+  float: right
+
+h1
+  font-family: $title-fonts
+  font-weight: 700
+  font-size: 3.6em
+  color: $white
+  margin: 0 auto
+  text-align: center
+
+  @include breakpoint(third)
+    font-size: 2.8em
+  @include breakpoint(half)
+    font-size: 2.1em
+  @include breakpoint(half-shift)
+    font-size: 1.4em
+
+h2
+  font-family: $body-fonts
+  font-weight: 100
+  font-size: 2em
+  margin: 0 auto
+
+  @include breakpoint(half)
+    font-size: 1.5em
+
+
+h3
+  font-family: $title-fonts
+  font-weight: 200
+  font-size: 2.2em
+  margin: 10px auto 0 auto
+  text-align: center
+
+h4
+  font-family: $body-fonts
+  font-weight: 100
+  font-size: 1.3em
+  margin: 0
+  text-align: center
+
+p
+  font-family: $body-fonts
+  font-weight: 300
+  font-size: 1.5em
+  margin: 10px 30px
+
+.highlight
+  font-weight: bold
+  color: $mainBlue
+
+.apply-section
+  margin-top: 2*$margin-unit
+
+  &:last-child
+    text-align: center
+    margin-bottom: 2*$margin-unit
+
+
+.arrow-text
+  color: $white
+  font-family: $body-fonts
+  display: inline-block
+  vertical-align: middle
+
+  -webkit-transition: all 0.3s ease-in-out
+  -moz-transition:    all 0.3s ease-in-out
+  -o-transition:      all 0.3s ease-in-out
+  opacity: 0
+  left: -1%
+
+.fa-chevron-left
+  @include chevron(left)
+
+.fa-chevron-right
+  @include chevron(right)
+

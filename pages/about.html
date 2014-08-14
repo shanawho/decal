@@ -1,0 +1,35 @@
+<div class="main">
+  <section class="title">
+    <span class="preheader">Introduction to</span>
+    <h1>Illustrator &amp; Photoshop</h1>
+  </section>
+
+  <ul class="squares">
+    <span ng-repeat="lesson in lessons">
+      <a href="#/lesson/{{$index+1}}" class="lesson-link">
+
+        <li class="square square-{{$index+1}}">
+          <div class="square-blurb">
+            <div class="square-text">
+              <span class="week">Lesson {{$index+1}}</span>
+              <span class="lesson-title">{{lesson.title}}</span>
+            </div>
+            <div class="overlay"></div>
+          </div>
+        </li>
+      </a>
+    </span>
+  </ul>
+
+  <section class="title">
+      <h2>Want to learn?</h2>
+        <p>Come to our infosession on Savio Steps, September #th</p>
+        <p>Applications for Fall 2014 are due September #th</p>
+      </ul>
+
+  </section>
+
+</div>
+    
+
+
