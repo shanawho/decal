@@ -87,8 +87,8 @@ nav {
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out; }
   .square-blurb:hover {
-    opacity: 0.8;
-    background-color: #3498db; }
+    opacity: 1;
+    background-color: rgba(42, 151, 219, 0.9); }
     .square-blurb:hover .lesson-title {
       opacity: 1; }
 
@@ -103,7 +103,7 @@ nav {
   background-repeat: no-repeat; }
 
 .square-3 {
-  background: url("../images/hpmovie.jpg");
+  background: url("../images/color.png");
   background-size: 100% auto;
   background-repeat: no-repeat; }
 
@@ -113,17 +113,17 @@ nav {
   background-repeat: no-repeat; }
 
 .square-5 {
-  background: url("../images/hpmovie.jpg");
+  background: url("../images/cookies.png");
   background-size: 100% auto;
   background-repeat: no-repeat; }
 
 .square-6 {
-  background: url("../images/hpmovie.jpg");
+  background: url("../images/psbasics.png");
   background-size: 100% auto;
   background-repeat: no-repeat; }
 
 .square-7 {
-  background: url("../images/hpmovie.jpg");
+  background: url("../images/cutout.png");
   background-size: 100% auto;
   background-repeat: no-repeat; }
 
@@ -133,6 +133,11 @@ nav {
   background-repeat: no-repeat; }
   .square-9:hover {
     opacity: 1; }
+
+.square-10 {
+  background: url("../images/psandi.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat; }
 
 .square-12 {
   background: url("../images/showcase.jpg");
@@ -260,7 +265,8 @@ a {
   list-style-type: none; }
   .timeline li {
     font-family: "Source Sans Pro", sans-serif;
-    font-size: 1.3em; }
+    font-size: 1.3em;
+    margin: 0; }
   .timeline a {
     color: #252930; }
 
@@ -268,29 +274,22 @@ a {
   color: white;
   display: inline-block;
   list-style: none;
+  display: table;
   padding: 0;
-  margin: 0; }
-
-.team-profile {
-  width: 33%;
-  height: 0;
-  padding-bottom: 33%;
-  position: relative;
-  display: inline-block;
   margin: 0 auto;
-  overflow: hidden; }
-  @media (max-width: 800px) {
-    .team-profile {
-      width: 50%;
-      padding-bottom: 50%; } }
-  @media (max-width: 450px) {
-    .team-profile {
-      width: 100%;
-      padding-bottom: 100%; } }
+  width: 100%;
+  background: #3498db; }
 
 .team-pic-crop {
   position: relative;
-  display: block;
+  width: 16.66%;
+  height: 0;
+  padding-bottom: 16.66%;
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+  overflow: hidden;
+  display: inline-block;
   margin: 0 auto;
   overflow: hidden; }
 
@@ -298,13 +297,13 @@ a {
   width: 100%; }
 
 .team-name {
-  position: absolute;
-  top: -50px;
-  left: 10px;
-  font-family: "Arvo", Helvetica, sans-serif;
-  font-size: 2.7em;
-  color: #252930;
-  font-weight: 300; }
+  position: relative;
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  display: inline-block;
+  width: 16.66%;
+  top: 10px;
+  font-size: 1em; }
 
 .team-bio {
   position: absolute;
@@ -321,7 +320,6 @@ a {
     opacity: 1; }
 
 .steps {
-  border: 3px solid #3498db;
   padding: 30px; }
   .steps li {
     font-family: "Source Sans Pro", sans-serif;
@@ -351,13 +349,14 @@ a {
 
 .section-img {
   width: 300px;
-  height: auto;
+  height: 300px;
   float: left;
   margin: 0 30px;
   margin-bottom: 30px; }
   .section-img img {
     width: 100%;
-    height: auto; }
+    height: auto;
+    overflow: hidden; }
 
 .date {
   position: relative;
@@ -415,9 +414,6 @@ p {
 
 .apply-section {
   margin-top: 60px; }
-  .apply-section:last-child {
-    text-align: center;
-    margin-bottom: 60px; }
 
 .arrow-text {
   color: white;
