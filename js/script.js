@@ -70,7 +70,7 @@
       {title: "Brushes & Symbols"},
       {title: "Effects & Typography"},
       {title: "Intro to Photoshop"},
-      {title: "Cutouts"},
+      {title: "Layer Styles & Cutouts"},
       {title: "TBA"},
       {title: "Effects & Manipulation"},
       {title: "Combining Programs"},
@@ -91,46 +91,59 @@
     $scope.tutorial = "Learn how to create a cool-looking abstract pattern which you can personalize with your own color choices and initials. Check it out over to the right!";
     $scope.homework = "This week's homework is to get you comfortable with finding your away around Illustrator on your own! Follow the tutorial we did in class to make another cool pattern. Be creative and check out some student examples from semesters past.";
     $scope.nextLesson = $scope.week+1;
+
+    $scope.lessonImg = "../images/lesson1.png";
+    $scope.hwImg = "../images/hw1.png";
   });
 
   decalApp.controller("week2Controller", function($scope) {
     $scope.week = 2;
-    $scope.date = "Oct 5";
     $scope.pageTitle = $scope.lessons[$scope.week-1]["title"];
     $scope.tutorial = "Get your pop art on by using pen tool to create a graphic in Roy Lichtenstein's comic-book style. You'll be honing your skills with anchors and handles, and even playing with stroke width to get a Lichtenstein-like effect.";
     $scope.homework = "Pick a favorite character from a cartoon or animation, lock it underneath, and start tracing away with pen tool! After you have a set of lines you're happy with, be sure to use Live Paint to color it in.";
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
+
+    $scope.lessonImg = "../images/lesson2.png";
+    $scope.hwImg = "../images/hw2.png";
   });
 
   decalApp.controller("week3Controller", function($scope) {
     $scope.week = 3;
-    $scope.date = "Oct 5";
     $scope.pageTitle = $scope.lessons[$scope.week-1]["title"];
-    $scope.tutorial = "Learn how to create a cool-looking abstract pattern which you can personalize with your own color choices and initials. Check it out over to the right!";
-    $scope.homework = "This week's homework is to get you comfortable with finding your away around Illustrator on your own! Follow the tutorial we did in class to make another cool pattern. Be creative and check out some student examples from semesters past.";
+    $scope.tutorial = "Learn how to make blends and gradients in Illustrator and how to use these tools to create an original composition.";
+    $scope.homework = "new hw";
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
+
+    $scope.lessonImg = "../images/color.png";
+    $scope.hwImg = "../images/hw3.png";
+
   });
 
   decalApp.controller("week4Controller", function($scope) {
     $scope.week = 4;
     $scope.date = "Oct 5";
     $scope.pageTitle = $scope.lessons[$scope.week-1]["title"];
-    $scope.tutorial = "Learn how to create a cool-looking abstract pattern which you can personalize with your own color choices and initials. Check it out over to the right!";
-    $scope.homework = "This week's homework is to get you comfortable with finding your away around Illustrator on your own! Follow the tutorial we did in class to make another cool pattern. Be creative and check out some student examples from semesters past.";
+    $scope.tutorial = "Learn how to make all different types of brushes and apply them in a fun poster series about New York City.";
+    $scope.homework = "Create a either a brush (either scatter, art, or pattern) and use it to create a little doodle!";
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
+
+    $scope.lessonImg = "../images/brush.png";
+    $scope.hwImg = "../images/hw4.png";
   });
 
   decalApp.controller("week5Controller", function($scope) {
     $scope.week = 5;
-    $scope.date = "Oct 5";
     $scope.pageTitle = $scope.lessons[$scope.week-1]["title"];
     $scope.tutorial = "Learn how to create a cool-looking abstract pattern which you can personalize with your own color choices and initials. Check it out over to the right!";
-    $scope.homework = "This week's homework is to get you comfortable with finding your away around Illustrator on your own! Follow the tutorial we did in class to make another cool pattern. Be creative and check out some student examples from semesters past.";
+    $scope.homework = "Midsemester Poster Project";
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
+
+    $scope.lessonImg = "../images/cookies.png";
+    $scope.hwImg = "../images/hw5.png";
   });
 
   decalApp.controller("week6Controller", function($scope) {
@@ -138,29 +151,38 @@
     $scope.date = "Oct 5";
     $scope.pageTitle = $scope.lessons[$scope.week-1]["title"];
     $scope.tutorial = "Learn your way around the Photoshop interface while fixing up a portrait. We'll play with everything from saturation to lighting to spothealing. Remember, photo editing ideally should be minor retouches which can make a major difference.";
-    $scope.homework = "Find a photo of yourself or a friend and use at least two tools you learned to fix the photo up. If you're at a loss for which photo to use, you can just use the one provided.";
+    $scope.homework = "Find a photo of yourself or a friend and use at least two tools you learned to fix the photo up. You can also go above and beyond and practice more intense photo manipulation like you can see in the example on the left! If you're at a loss for which photo to use, you can just use the one provided.";
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
+
+    $scope.lessonImg = "../images/psbasics.png";
+    $scope.hwImg = "../images/hw6.jpg";
   });
 
   decalApp.controller("week7Controller", function($scope) {
     $scope.week = 7;
     $scope.date = "Oct 5";
     $scope.pageTitle = $scope.lessons[$scope.week-1]["title"];
-    $scope.tutorial = "Learn how to create a cool-looking abstract pattern which you can personalize with your own color choices and initials. Check it out over to the right!";
-    $scope.homework = "This week's homework is to get you comfortable with finding your away around Illustrator on your own! Follow the tutorial we did in class to make another cool pattern. Be creative and check out some student examples from semesters past.";
+    $scope.tutorial = "Everything you make in Photoshop is built on layers. This lesson will give you an overview of techniques you can use to manipulate layer styles and create cutouts.";
+    $scope.homework = "Create a text effect and then include a !"
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
+
+    $scope.lessonImg = "../images/cutout.png";
+    $scope.hwImg = "../images/hw7.jpg";
   });
 
   decalApp.controller("week8Controller", function($scope) {
     $scope.week = 8;
     $scope.date = "Oct 5";
     $scope.pageTitle = $scope.lessons[$scope.week-1]["title"];
-    $scope.tutorial = "Learn how to create a cool-looking abstract pattern which you can personalize with your own color choices and initials. Check it out over to the right!";
-    $scope.homework = "This week's homework is to get you comfortable with finding your away around Illustrator on your own! Follow the tutorial we did in class to make another cool pattern. Be creative and check out some student examples from semesters past.";
+    $scope.tutorial = "TBAAAA";
+    $scope.homework = "new hw";
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
+
+    $scope.lessonImg = "";
+    $scope.hwImg = "../images/hw8.png";
   });
 
   decalApp.controller("week9Controller", function($scope) {
@@ -171,35 +193,46 @@
     $scope.homework = "";
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
+
+    $scope.lessonImg = "../images/hpmovie.jpg";
+    $scope.hwImg = "../images/hw9.png";
   });
 
   decalApp.controller("week10Controller", function($scope) {
     $scope.week = 10;
     $scope.date = "Oct 5";
     $scope.pageTitle = $scope.lessons[$scope.week-1]["title"];
-    $scope.tutorial = "Learn how to create a cool-looking abstract pattern which you can personalize with your own color choices and initials. Check it out over to the right!";
-    $scope.homework = "This week's homework is to get you comfortable with finding your away around Illustrator on your own! Follow the tutorial we did in class to make another cool pattern. Be creative and check out some student examples from semesters past.";
+    $scope.tutorial = "Learn how to combine Illustrator & Photoshop to create cool composite images and designs.";
+    $scope.homework = "Choose your favorite book and create a custom cover for it using at least";
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
+
+    $scope.lessonImg = "../images/psandi.png";
+    $scope.hwImg = "../images/hw10.jpg";
   });
 
   decalApp.controller("week11Controller", function($scope) {
     $scope.week = 11;
     $scope.date = "Oct 5";
     $scope.pageTitle = $scope.lessons[$scope.week-1]["title"];
-    $scope.tutorial = "Learn how to create a cool-looking abstract pattern which you can personalize with your own color choices and initials. Check it out over to the right!";
-    $scope.homework = "This week's homework is to get you comfortable with finding your away around Illustrator on your own! Follow the tutorial we did in class to make another cool pattern. Be creative and check out some student examples from semesters past.";
+    $scope.tutorial = "Apply everything you've learned this semester by rebranding and creating an advertisement design for a company!";
+    $scope.homework = "Work on your final project";
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
+
+    $scope.lessonImg = "../images/showcase.jpg";
+    $scope.hwImg = "../images/hw11.png";
   });
 
   decalApp.controller("week12Controller", function($scope) {
     $scope.week = 12;
     $scope.date = "Oct 5";
     $scope.pageTitle = $scope.lessons[$scope.week-1]["title"];
-    $scope.tutorial = "Learn how to create a cool-looking abstract pattern which you can personalize with your own color choices and initials. Check it out over to the right!";
-    $scope.homework = "This week's homework is to get you comfortable with finding your away around Illustrator on your own! Follow the tutorial we did in class to make another cool pattern. Be creative and check out some student examples from semesters past.";
+    $scope.tutorial = "Our last class will be a potluck style showcase! Bring some snacks to share and see all the work you and your classmates have accomplished this semester. The course will conclude with everyone presenting to the class their final project.";
+    $scope.homework = "";
     $scope.prevLesson = $scope.week-1;
+
+    $scope.lessonImg = "../images/showcase.jpg";
   });
 
 }).call(this);

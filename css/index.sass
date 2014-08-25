@@ -169,8 +169,8 @@ nav
   -o-transition:      all 0.3s ease-in-out
 
   &:hover
-    opacity: .8
-    background-color: $mainBlue
+    opacity: 1
+    background-color: rgba(42, 151, 219, .9)
 
     & .lesson-title
       opacity: 1
@@ -184,7 +184,7 @@ nav
   @include square-bg
 
 .square-3
-  background: url('../images/hpmovie.jpg')
+  background: url('../images/color.png')
   @include square-bg
 
 .square-4
@@ -192,15 +192,15 @@ nav
   @include square-bg
 
 .square-5
-  background: url('../images/hpmovie.jpg')
+  background: url('../images/cookies.png')
   @include square-bg
 
 .square-6
-  background: url('../images/hpmovie.jpg')
+  background: url('../images/psbasics.png')
   @include square-bg
 
 .square-7
-  background: url('../images/hpmovie.jpg')
+  background: url('../images/cutout.png')
   @include square-bg
 
 .square-8
@@ -213,6 +213,8 @@ nav
     opacity: 1
 
 .square-10
+  background: url('../images/psandi.png')
+  @include square-bg
 
 .square-11
 
@@ -353,6 +355,7 @@ a
   li 
     font-family: $body-fonts
     font-size: 1.3em
+    margin: 0
 
   a
     color: $black
@@ -361,30 +364,26 @@ a
   color: $white
   display: inline-block
   list-style: none
+  display: table
   padding: 0
-  margin: 0
+  margin: 0 auto
+  width: 100%
+  background: $mainBlue
 
 
-.team-profile
-  width: 33%
+.team-pic-crop
+  position: relative
+  width: 16.66%
   height: 0
-  padding-bottom: 33%
+  padding-bottom: 16.66%
 
-  @include breakpoint(half)
-    width: 50%
-    padding-bottom: 50%
-  @include breakpoint(single)
-    width: 100%
-    padding-bottom: 100%
 
   position: relative
   display: inline-block
   margin: 0 auto
   overflow: hidden
 
-.team-pic-crop
-  position: relative
-  display: block
+  display: inline-block
   margin: 0 auto
   overflow: hidden
 
@@ -393,13 +392,13 @@ a
   width: 100%
 
 .team-name
-  position: absolute
-  top: -50px
-  left: 10px
-  font-family: $title-fonts
-  font-size: 2.7em
-  color: $black
-  font-weight: 300
+  position: relative
+  text-align: center
+  font-family: $body-fonts
+  display: inline-block
+  width: 16.66%
+  top: 10px
+  font-size: 1em
 
 
 .team-bio
@@ -419,7 +418,6 @@ a
 
 
 .steps 
-  border: 3px solid $mainBlue
   padding: $margin-unit
 
   li
@@ -453,7 +451,7 @@ a
 
 .section-img
   width: 300px
-  height: auto
+  height: 300px
   float: left
   margin: 0 $margin-unit
   margin-bottom: $margin-unit
@@ -461,6 +459,7 @@ a
   img
     width: 100%
     height: auto
+    overflow: hidden
 
 .date
   @extend .preheader
@@ -519,9 +518,6 @@ p
 .apply-section
   margin-top: 2*$margin-unit
 
-  &:last-child
-    text-align: center
-    margin-bottom: 2*$margin-unit
 
 
 .arrow-text
