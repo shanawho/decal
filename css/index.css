@@ -93,56 +93,64 @@ nav {
       opacity: 1; }
 
 .square-1 {
-  background: url("../images/lesson1.png");
+  background: url("../images/lessons/lesson1.png");
   background-size: 100% auto;
   background-repeat: no-repeat; }
 
 .square-2 {
-  background: url("../images/lesson2.png");
+  background: url("../images/lessons/lesson2.png");
   background-size: 100% auto;
   background-repeat: no-repeat; }
 
 .square-3 {
-  background: url("../images/color.png");
+  background: url("../images/lessons/lesson3.png");
   background-size: 100% auto;
   background-repeat: no-repeat; }
 
 .square-4 {
-  background: url("../images/brush.png");
+  background: url("../images/lessons/lesson4.png");
   background-size: 100% auto;
   background-repeat: no-repeat; }
 
 .square-5 {
-  background: url("../images/cookies.png");
+  background: url("../images/lessons/lesson5.png");
   background-size: 100% auto;
   background-repeat: no-repeat; }
 
 .square-6 {
-  background: url("../images/psbasics.png");
+  background: url("../images/lessons/lesson6.png");
   background-size: 100% auto;
   background-repeat: no-repeat; }
 
 .square-7 {
-  background: url("../images/cutout.png");
+  background: url("../images/lessons/lesson7.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat; }
+
+.square-8 {
+  background: url("../images/lessons/lesson8.png");
   background-size: 100% auto;
   background-repeat: no-repeat; }
 
 .square-9 {
-  background: url("../images/hpmovie.jpg");
+  background: url("../images/lessons/lesson9.png");
   background-size: 100% auto;
   background-repeat: no-repeat; }
-  .square-9:hover {
-    opacity: 1; }
 
 .square-10 {
-  background: url("../images/psandi.png");
+  background: url("../images/lessons/lesson10.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat; }
+
+.square-11 {
+  background: url("../images/lessons/lesson11.png");
   background-size: 100% auto;
   background-repeat: no-repeat; }
 
 .square-12 {
-  background: url("../images/showcase.jpg");
-  background-size: auto 100%;
-  background-position: 70%; }
+  background: url("../images/lessons/lesson12.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat; }
 
 .square-text {
   position: relative;
