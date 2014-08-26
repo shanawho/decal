@@ -91,9 +91,6 @@
     $scope.tutorial = "Learn how to create a cool-looking abstract pattern which you can personalize with your own color choices and initials.";
     $scope.homework = "This week's homework is to get you comfortable with finding your away around Illustrator on your own! Follow the tutorial we did in class to make another cool pattern. Be creative and check out some student examples from semesters past.";
     $scope.nextLesson = $scope.week+1;
-
-    $scope.lessonImg = "../images/lesson1.png";
-    $scope.hwImg = "../images/hw1.png";
   });
 
   decalApp.controller("week2Controller", function($scope) {
@@ -104,8 +101,7 @@
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
 
-    $scope.lessonImg = "../images/lesson2.png";
-    $scope.hwImg = "../images/hw2.png";
+    $scope.download-link = "test";
   });
 
   decalApp.controller("week3Controller", function($scope) {
@@ -116,8 +112,6 @@
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
 
-    $scope.lessonImg = "../images/color.png";
-    $scope.hwImg = "../images/hw3.png";
 
   });
 
@@ -129,9 +123,6 @@
     $scope.homework = "Create a either a brush (either scatter, art, or pattern) and use it to create a little doodle!";
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
-
-    $scope.lessonImg = "../images/brush.png";
-    $scope.hwImg = "../images/hw4.png";
   });
 
   decalApp.controller("week5Controller", function($scope) {
@@ -142,8 +133,6 @@
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
 
-    $scope.lessonImg = "../images/cookies.png";
-    $scope.hwImg = "../images/hw5.png";
   });
 
   decalApp.controller("week6Controller", function($scope) {
@@ -155,8 +144,6 @@
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
 
-    $scope.lessonImg = "../images/psbasics.png";
-    $scope.hwImg = "../images/hw6.jpg";
   });
 
   decalApp.controller("week7Controller", function($scope) {
@@ -168,8 +155,6 @@
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
 
-    $scope.lessonImg = "../images/cutout.png";
-    $scope.hwImg = "../images/hw7.jpg";
   });
 
   decalApp.controller("week8Controller", function($scope) {
@@ -180,9 +165,6 @@
     $scope.homework = "new hw";
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
-
-    $scope.lessonImg = "";
-    $scope.hwImg = "../images/hw8.png";
   });
 
   decalApp.controller("week9Controller", function($scope) {
@@ -194,8 +176,6 @@
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
 
-    $scope.lessonImg = "../images/hpmovie.jpg";
-    $scope.hwImg = "../images/hw9.png";
   });
 
   decalApp.controller("week10Controller", function($scope) {
@@ -207,8 +187,6 @@
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
 
-    $scope.lessonImg = "../images/psandi.png";
-    $scope.hwImg = "../images/hw10.jpg";
   });
 
   decalApp.controller("week11Controller", function($scope) {
@@ -220,8 +198,6 @@
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
 
-    $scope.lessonImg = "../images/branding.png";
-    $scope.hwImg = "../images/hw11.png";
   });
 
   decalApp.controller("week12Controller", function($scope) {
@@ -232,7 +208,6 @@
     $scope.homework = "";
     $scope.prevLesson = $scope.week-1;
 
-    $scope.lessonImg = "../images/showcase.jpg";
   });
 
 }).call(this);
