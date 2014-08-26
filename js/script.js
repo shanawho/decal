@@ -101,7 +101,7 @@
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
 
-    $scope.download-link = "test";
+    $scope.download = "test";
   });
 
   decalApp.controller("week3Controller", function($scope) {

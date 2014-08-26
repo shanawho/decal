@@ -178,13 +178,14 @@ nav {
 .download {
   position: relative;
   color: white;
-  font-size: 0.8em;
   text-align: center;
   border: 1px white solid;
-  margin: 0 auto;
+  margin: auto;
+  padding: 15px;
   width: 190px;
-  margin-top: -20px;
-  background: #3498db; }
+  margin-top: -25px;
+  background: #3498db;
+  font-family: "Source Sans Pro", sans-serif; }
   @media (max-width: 450px) {
     .download {
       width: 150px;
