@@ -168,6 +168,13 @@ nav
   -moz-transition:    all 0.3s ease-in-out
   -o-transition:      all 0.3s ease-in-out
 
+  @include breakpoint(single)
+    opacity: 1
+    background-color: rgba(42, 151, 219, .9)
+
+    & .lesson-title
+      opacity: 1
+
   &:hover
     opacity: 1
     background-color: rgba(42, 151, 219, .9)
