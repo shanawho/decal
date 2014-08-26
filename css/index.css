@@ -94,7 +94,7 @@ nav {
         opacity: 1; } }
   .square-blurb:hover {
     opacity: 1;
-    background-color: rgba(42, 151, 219, 0.9); }
+    background-color: rgba(42, 151, 219, 0.3); }
     .square-blurb:hover .lesson-title {
       opacity: 1; }
 
