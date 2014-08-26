@@ -100,8 +100,6 @@
     $scope.homework = "Pick a favorite character from a cartoon or animation, lock it underneath, and start tracing away with pen tool! After you have a set of lines you're happy with, be sure to use Live Paint to color it in.";
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
-
-    $scope.download = "test";
   });
 
   decalApp.controller("week3Controller", function($scope) {
