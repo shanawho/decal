@@ -429,6 +429,10 @@ p {
 
 .apply-section {
   margin-top: 60px; }
+  .apply-section ul li {
+    font-size: 1.3em; }
+  .apply-section a {
+    color: #3498db; }
 
 .arrow-text {
   color: white;
