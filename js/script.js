@@ -89,7 +89,7 @@
     $scope.date = "Oct 5";
     $scope.pageTitle = $scope.lessons[$scope.week-1]["title"];
     $scope.tutorial = "Learn how to create a cool-looking abstract pattern which you can personalize with your own color choices and initials.";
-    $scope.homework = "This week's homework is to get you comfortable with finding your away around Illustrator on your own! Follow the tutorial we did in class to make another cool pattern. Be creative and check out some student examples from semesters past.";
+    $scope.homework = "This week's homework is to get you comfortable with finding your away around Illustrator on your own! Follow the tutorial we did in class to make another cool pattern.";
     $scope.nextLesson = $scope.week+1;
     $scope.download = "https://www.dropbox.com/s/48s7dfufh29hzve/Lesson%201%20%26%20Tutorial%201%20%28Abstract%20Pattern%29.pdf?dl=0";
   });
