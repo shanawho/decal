@@ -108,7 +108,7 @@
     $scope.week = 3;
     $scope.pageTitle = $scope.lessons[$scope.week-1]["title"];
     $scope.tutorial = "Learn how to make blends and gradients in Illustrator and how to use these tools to create an original composition.";
-    $scope.homework = "";
+    $scope.homework = "Pen tool a scene of your choice, and then go to Edit -> Edit Colors -> Recolor Artwork to create a day and night scene. Make sure you incorporate both the gradient tool and the blend tool into the work you've created.";
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
     $scope.download = "https://www.dropbox.com/s/1bncd3syb1p4yar/lesson3.zip?dl=0";
