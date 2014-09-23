@@ -108,9 +108,10 @@
     $scope.week = 3;
     $scope.pageTitle = $scope.lessons[$scope.week-1]["title"];
     $scope.tutorial = "Learn how to make blends and gradients in Illustrator and how to use these tools to create an original composition.";
-    $scope.homework = "new hw";
+    $scope.homework = "";
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
+    $scope.download = "https://www.dropbox.com/s/1bncd3syb1p4yar/lesson3.zip?dl=0";
 
 
   });
