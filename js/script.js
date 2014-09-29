@@ -118,12 +118,12 @@
 
   decalApp.controller("week4Controller", function($scope) {
     $scope.week = 4;
-    $scope.date = "Oct 5";
     $scope.pageTitle = $scope.lessons[$scope.week-1]["title"];
     $scope.tutorial = "Learn how to make all different types of brushes and apply them in a fun poster series about New York City.";
     $scope.homework = "Create a either a brush (either scatter, art, or pattern) and use it to create a little doodle!";
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
+    $scope.download = "https://www.dropbox.com/s/xv3pxbwvcycvj3i/Tutorial%204%20Files.zip?dl=0";
   });
 
   decalApp.controller("week5Controller", function($scope) {
