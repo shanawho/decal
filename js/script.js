@@ -129,7 +129,7 @@
   decalApp.controller("week5Controller", function($scope) {
     $scope.week = 5;
     $scope.pageTitle = $scope.lessons[$scope.week-1]["title"];
-    $scope.tutorial = "Learn how to create a cool-looking abstract pattern which you can personalize with your own color choices and initials. Check it out over to the right!";
+    $scope.tutorial = "Today we're making cookies through Illustrator Effects & Appearances. We'll also talk a little about typography and how you can manipulate type in your designs.";
     $scope.homework = "Midsemester Poster Project";
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
