@@ -133,6 +133,7 @@
     $scope.homework = "Midsemester Poster Project";
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
+    $scope.download = "https://www.dropbox.com/s/ipu7zzp1q9593v4/week5.zip?dl=0";
 
   });
 
