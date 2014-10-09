@@ -130,7 +130,7 @@
     $scope.week = 5;
     $scope.pageTitle = $scope.lessons[$scope.week-1]["title"];
     $scope.tutorial = "Today we're making cookies through Illustrator Effects & Appearances. We'll also talk a little about typography and how you can manipulate type in your designs.";
-    $scope.homework = "No weekly homework this week! BUT you should start working on your Midsemester Poster Project. Create a poster for your favorite movie (or television show if you want). Use at least 3 tools that we've learned in class. Get creative and have fun!";
+    $scope.homework = "No weekly homework this week! BUT you should start working on your Midsemester Poster Project. Create a poster for your favorite movie (or television show if you want). Use at least 3 tools that we've learned in class. Get creative and have fun! See this link for examples: http://imgur.com/a/M9nCV#0";
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
     $scope.download = "https://www.dropbox.com/s/ipu7zzp1q9593v4/week5.zip?dl=0";
