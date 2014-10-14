@@ -139,12 +139,12 @@
 
   decalApp.controller("week6Controller", function($scope) {
     $scope.week = 6;
-    $scope.date = "Oct 5";
     $scope.pageTitle = $scope.lessons[$scope.week-1]["title"];
     $scope.tutorial = "Learn your way around the Photoshop interface while fixing up a portrait. We'll play with everything from saturation to lighting to spothealing. Remember, photo editing ideally should be minor retouches which can make a major difference.";
     $scope.homework = "Find a photo of yourself or a friend and use at least two tools you learned to fix the photo up. You can also go above and beyond and practice more intense photo manipulation like you can see in the example on the left! If you're at a loss for which photo to use, you can just use the one provided.";
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
+    $scope.download = "hhttps://www.dropbox.com/s/4cr709ar0roo2vp/week6.zip?dl=0";
 
   });
 
