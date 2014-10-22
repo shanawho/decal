@@ -153,9 +153,10 @@
     $scope.date = "Oct 5";
     $scope.pageTitle = $scope.lessons[$scope.week-1]["title"];
     $scope.tutorial = "Everything you make in Photoshop is built on layers. This lesson will give you an overview of techniques you can use to manipulate layer styles and create cutouts.";
-    $scope.homework = "Create a text effect and then include a !"
+    $scope.homework = "Make a poster dedicated to your favorite celebrity crush and add some cool text!"
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
+    $scope.download = "https://www.dropbox.com/s/zpnujydh3f2map8/week7.zip?dl=0";
 
   });
 
