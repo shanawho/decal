@@ -71,8 +71,8 @@
       {title: "Effects & Typography"},
       {title: "Intro to Photoshop"},
       {title: "Layer Styles & Cutouts"},
-      {title: "TBA"},
       {title: "Effects & Manipulation"},
+      {title: "TBA"},
       {title: "Combining Programs"},
       {title: "Identity & Ad Design"},
       {title: "Final Showcase"}
@@ -164,18 +164,19 @@
     $scope.week = 8;
     $scope.date = "Oct 5";
     $scope.pageTitle = $scope.lessons[$scope.week-1]["title"];
-    $scope.tutorial = "TBAAAA";
-    $scope.homework = "new hw";
+    $scope.tutorial = "Learn how to combine many images and textures with different blending modes to create an awesome movie poster.";
+    $scope.homework = "TBA";
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
+    $scope.download = "https://www.dropbox.com/sh/l1n2oi9w917ik2l/AABcWHZlhQHZuOR83ty9lg33a?dl=0";
   });
 
   decalApp.controller("week9Controller", function($scope) {
     $scope.week = 9;
     $scope.date = "Oct 5";
     $scope.pageTitle = $scope.lessons[$scope.week-1]["title"];
-    $scope.tutorial = "Learn how to combine many images and textures with different blending modes to create an awesome movie poster. ";
-    $scope.homework = "";
+    $scope.tutorial = "TBA";
+    $scope.homework = "TBA";
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
 
