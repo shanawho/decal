@@ -174,7 +174,7 @@
     $scope.date = "Oct 5";
     $scope.pageTitle = $scope.lessons[$scope.week-1]["title"];
     $scope.tutorial = "Learn how to combine many images and textures with different blending modes to create an awesome movie poster. ";
-    $scope.homework = "";
+    $scope.homework = "Create a book cover using at least two textures and two stock photos. We'll provide you a folder of textures/photos you can choose from but don't feel limited to only these!";
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
 
