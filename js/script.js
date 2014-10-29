@@ -168,7 +168,7 @@
     $scope.homework = "TBA";
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
-    $scope.download = "https://www.dropbox.com/sh/l1n2oi9w917ik2l/AABcWHZlhQHZuOR83ty9lg33a?dl=0";
+    $scope.download = "https://www.dropbox.com/s/rf1z97ovbni1jtv/HARRYP__.zip?dl=0";
   });
 
   decalApp.controller("week9Controller", function($scope) {
