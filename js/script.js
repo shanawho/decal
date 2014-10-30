@@ -71,8 +71,8 @@
       {title: "Effects & Typography"},
       {title: "Intro to Photoshop"},
       {title: "Layer Styles & Cutouts"},
-      {title: "TBA"},
       {title: "Effects & Manipulation"},
+      {title: "TBA"},
       {title: "Combining Programs"},
       {title: "Identity & Ad Design"},
       {title: "Final Showcase"}
@@ -139,12 +139,12 @@
 
   decalApp.controller("week6Controller", function($scope) {
     $scope.week = 6;
-    $scope.date = "Oct 5";
     $scope.pageTitle = $scope.lessons[$scope.week-1]["title"];
     $scope.tutorial = "Learn your way around the Photoshop interface while fixing up a portrait. We'll play with everything from saturation to lighting to spothealing. Remember, photo editing ideally should be minor retouches which can make a major difference.";
     $scope.homework = "Find a photo of yourself or a friend and use at least two tools you learned to fix the photo up. You can also go above and beyond and practice more intense photo manipulation like you can see in the example on the left! If you're at a loss for which photo to use, you can just use the one provided.";
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
+    $scope.download = "https://www.dropbox.com/s/4cr709ar0roo2vp/week6.zip?dl=0";
 
   });
 
@@ -153,9 +153,10 @@
     $scope.date = "Oct 5";
     $scope.pageTitle = $scope.lessons[$scope.week-1]["title"];
     $scope.tutorial = "Everything you make in Photoshop is built on layers. This lesson will give you an overview of techniques you can use to manipulate layer styles and create cutouts.";
-    $scope.homework = "Create a text effect and then include a !"
+    $scope.homework = "Make a poster dedicated to your favorite celebrity crush and add some cool text!"
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
+    $scope.download = "https://www.dropbox.com/s/zpnujydh3f2map8/week7.zip?dl=0";
 
   });
 
@@ -163,10 +164,11 @@
     $scope.week = 8;
     $scope.date = "Oct 5";
     $scope.pageTitle = $scope.lessons[$scope.week-1]["title"];
-    $scope.tutorial = "TBAAAA";
-    $scope.homework = "new hw";
+    $scope.tutorial = "Learn how to combine many images and textures with different blending modes to create an awesome movie poster.";
+    $scope.homework = "Create a book cover using at least two textures and two stock photos. We'll provide you a folder of textures/photos you can choose from but don't feel limited to only these!";
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
+    $scope.download = "https://www.dropbox.com/s/rf1z97ovbni1jtv/HARRYP__.zip?dl=0";
   });
 
   decalApp.controller("week9Controller", function($scope) {
@@ -185,7 +187,7 @@
     $scope.date = "Oct 5";
     $scope.pageTitle = $scope.lessons[$scope.week-1]["title"];
     $scope.tutorial = "Learn how to combine Illustrator & Photoshop to create cool composite images and designs.";
-    $scope.homework = "Choose your favorite book and create a custom cover for it using at least";
+    $scope.homework = "Choose your favorite book and create a custom cover for it using at least two textures and two stock photos";
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
 
