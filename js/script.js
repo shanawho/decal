@@ -173,12 +173,13 @@
 
   decalApp.controller("week9Controller", function($scope) {
     $scope.week = 9;
-    $scope.date = "Oct 5";
+    $scope.date = "Nov 5";
     $scope.pageTitle = $scope.lessons[$scope.week-1]["title"];
-    $scope.tutorial = "Learn how to combine many images and textures with different blending modes to create an awesome movie poster. ";
-    $scope.homework = "Create a book cover using at least two textures and two stock photos. We'll provide you a folder of textures/photos you can choose from but don't feel limited to only these!";
+    $scope.tutorial = "Learn how to do cool tricks and effects in Photoshop including photo manipulation and gifs! ";
+    $scope.homework = "Create a sci-fi magazine cover that may be on a magazine in the future! Use one the effects taught in class today ";
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
+    $scope.download = "https://www.dropbox.com/sh/buyorczdpj0xzny/AACUZDO3jua13WqPYiPXyGWRa?dl=0";
 
   });
 
