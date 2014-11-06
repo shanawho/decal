@@ -72,7 +72,7 @@
       {title: "Intro to Photoshop"},
       {title: "Layer Styles & Cutouts"},
       {title: "Effects & Manipulation"},
-      {title: "TBA"},
+      {title: "Photo Manipulation and Gifs"},
       {title: "Combining Programs"},
       {title: "Identity & Ad Design"},
       {title: "Final Showcase"}
