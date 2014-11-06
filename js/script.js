@@ -179,7 +179,7 @@
     $scope.homework = "Create a sci-fi magazine cover that may be on a magazine in the future! Use one the effects taught in class today ";
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
-    $scope.download = "https://www.dropbox.com/sh/buyorczdpj0xzny/AACUZDO3jua13WqPYiPXyGWRa?dl=0";
+    $scope.download = "https://www.dropbox.com/s/zqq0gfrl4ollxrd/Lesson9Files.zip?dl=0";
 
   });
 
