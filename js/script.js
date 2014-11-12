@@ -72,7 +72,7 @@
       {title: "Intro to Photoshop"},
       {title: "Layer Styles & Cutouts"},
       {title: "Effects & Manipulation"},
-      {title: "TBA"},
+      {title: "Photo Manipulation and Gifs"},
       {title: "Combining Programs"},
       {title: "Identity & Ad Design"},
       {title: "Final Showcase"}
@@ -165,7 +165,7 @@
     $scope.date = "Oct 5";
     $scope.pageTitle = $scope.lessons[$scope.week-1]["title"];
     $scope.tutorial = "Learn how to combine many images and textures with different blending modes to create an awesome movie poster.";
-    $scope.homework = "TBA";
+    $scope.homework = "Create a book cover using at least two textures and two stock photos. We'll provide you a folder of textures/photos you can choose from but don't feel limited to only these!";
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
     $scope.download = "https://www.dropbox.com/s/rf1z97ovbni1jtv/HARRYP__.zip?dl=0";
@@ -173,12 +173,13 @@
 
   decalApp.controller("week9Controller", function($scope) {
     $scope.week = 9;
-    $scope.date = "Oct 5";
+    $scope.date = "Nov 5";
     $scope.pageTitle = $scope.lessons[$scope.week-1]["title"];
-    $scope.tutorial = "TBA";
-    $scope.homework = "TBA";
+    $scope.tutorial = "Learn how to do cool tricks and effects in Photoshop including photo manipulation and gifs! ";
+    $scope.homework = "Create a sci-fi magazine cover that may be on a magazine in the future! Use one the effects taught in class today ";
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
+    $scope.download = "https://www.dropbox.com/s/zqq0gfrl4ollxrd/Lesson9Files.zip?dl=0";
 
   });
 
@@ -187,9 +188,10 @@
     $scope.date = "Oct 5";
     $scope.pageTitle = $scope.lessons[$scope.week-1]["title"];
     $scope.tutorial = "Learn how to combine Illustrator & Photoshop to create cool composite images and designs.";
-    $scope.homework = "Choose your favorite book and create a custom cover for it using at least";
+    $scope.homework = "Choose your favorite book and create a custom cover for it using at least two textures and two stock photos";
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
+    $scope.download = "https://www.dropbox.com/s/es0uxkg5jcwj4x2/tutorial%2010%20files.zip?dl=0";
 
   });
 
