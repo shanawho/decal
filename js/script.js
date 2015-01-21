@@ -91,7 +91,7 @@
     $scope.tutorial = "Learn how to create a cool-looking abstract pattern which you can personalize with your own color choices and initials.";
     $scope.homework = "This week's homework is to get you comfortable with finding your away around Illustrator on your own! Follow the tutorial we did in class to make another cool pattern.";
     $scope.nextLesson = $scope.week+1;
-    $scope.download = "https://www.dropbox.com/s/48s7dfufh29hzve/Lesson%201%20%26%20Tutorial%201%20%28Abstract%20Pattern%29.pdf?dl=0";
+    //$scope.download = "https://www.dropbox.com/s/48s7dfufh29hzve/Lesson%201%20%26%20Tutorial%201%20%28Abstract%20Pattern%29.pdf?dl=0";
   });
 
   decalApp.controller("week2Controller", function($scope) {
@@ -101,7 +101,7 @@
     $scope.homework = "Pick a favorite character from a cartoon or animation, lock it underneath, and start tracing away with pen tool! After you have a set of lines you're happy with, be sure to use Live Paint to color it in.";
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
-    $scope.download = "https://www.dropbox.com/s/jg17nkemn8xcqaq/week2files.zip?dl=0";
+    //$scope.download = "https://www.dropbox.com/s/jg17nkemn8xcqaq/week2files.zip?dl=0";
   });
 
   decalApp.controller("week3Controller", function($scope) {
@@ -111,7 +111,7 @@
     $scope.homework = "Pen tool a scene of your choice, and then go to Edit -> Edit Colors -> Recolor Artwork to create a day and night scene. Make sure you incorporate both the gradient tool and the blend tool into the work you've created.";
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
-    $scope.download = "https://www.dropbox.com/s/1bncd3syb1p4yar/lesson3.zip?dl=0";
+    //$scope.download = "https://www.dropbox.com/s/1bncd3syb1p4yar/lesson3.zip?dl=0";
 
 
   });
@@ -123,7 +123,7 @@
     $scope.homework = "Create a either a brush (either scatter, art, or pattern) and use it to create a little doodle!";
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
-    $scope.download = "https://www.dropbox.com/s/xv3pxbwvcycvj3i/Tutorial%204%20Files.zip?dl=0";
+    //$scope.download = "https://www.dropbox.com/s/xv3pxbwvcycvj3i/Tutorial%204%20Files.zip?dl=0";
   });
 
   decalApp.controller("week5Controller", function($scope) {
@@ -144,7 +144,7 @@
     $scope.homework = "Find a photo of yourself or a friend and use at least two tools you learned to fix the photo up. You can also go above and beyond and practice more intense photo manipulation like you can see in the example on the left! If you're at a loss for which photo to use, you can just use the one provided.";
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
-    $scope.download = "https://www.dropbox.com/s/4cr709ar0roo2vp/week6.zip?dl=0";
+    //$scope.download = "https://www.dropbox.com/s/4cr709ar0roo2vp/week6.zip?dl=0";
 
   });
 
@@ -156,7 +156,7 @@
     $scope.homework = "Make a poster dedicated to your favorite celebrity crush and add some cool text!"
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
-    $scope.download = "https://www.dropbox.com/s/zpnujydh3f2map8/week7.zip?dl=0";
+    //$scope.download = "https://www.dropbox.com/s/zpnujydh3f2map8/week7.zip?dl=0";
 
   });
 
@@ -168,7 +168,7 @@
     $scope.homework = "Create a book cover using at least two textures and two stock photos. We'll provide you a folder of textures/photos you can choose from but don't feel limited to only these!";
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
-    $scope.download = "https://www.dropbox.com/s/rf1z97ovbni1jtv/HARRYP__.zip?dl=0";
+    //$scope.download = "https://www.dropbox.com/s/rf1z97ovbni1jtv/HARRYP__.zip?dl=0";
   });
 
   decalApp.controller("week9Controller", function($scope) {
@@ -179,7 +179,7 @@
     $scope.homework = "Create a sci-fi magazine cover that may be on a magazine in the future! Use one the effects taught in class today ";
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
-    $scope.download = "https://www.dropbox.com/s/zqq0gfrl4ollxrd/Lesson9Files.zip?dl=0";
+    //$scope.download = "https://www.dropbox.com/s/zqq0gfrl4ollxrd/Lesson9Files.zip?dl=0";
 
   });
 
@@ -191,7 +191,7 @@
     $scope.homework = "Choose your favorite book and create a custom cover for it using at least two textures and two stock photos";
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
-    $scope.download = "https://www.dropbox.com/s/es0uxkg5jcwj4x2/tutorial%2010%20files.zip?dl=0";
+    //$scope.download = "https://www.dropbox.com/s/es0uxkg5jcwj4x2/tutorial%2010%20files.zip?dl=0";
 
   });
 
@@ -202,7 +202,7 @@
     $scope.tutorial = "Apply everything you've learned this semester by rebranding and creating an advertisement design for a company!";
     $scope.homework = "Work on your final project";
     $scope.prevLesson = $scope.week-1;
-    $scope.nextLesson = $scope.week+1;
+    //$scope.nextLesson = $scope.week+1;
 
   });
 
@@ -212,7 +212,7 @@
     $scope.pageTitle = $scope.lessons[$scope.week-1]["title"];
     $scope.tutorial = "Our last class will be a potluck style showcase! Bring some snacks to share and see all the work you and your classmates have accomplished this semester. The course will conclude with everyone presenting to the class their final project.";
     $scope.homework = "";
-    $scope.prevLesson = $scope.week-1;
+    //$scope.prevLesson = $scope.week-1;
 
   });
 

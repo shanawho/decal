@@ -298,9 +298,9 @@ a {
 
 .team-pic-crop {
   position: relative;
-  width: 16.66%;
+  width: 25%;
   height: 0;
-  padding-bottom: 16.66%;
+  padding-bottom: 25%;
   position: relative;
   display: inline-block;
   margin: 0 auto;
@@ -317,7 +317,7 @@ a {
   text-align: center;
   font-family: "Source Sans Pro", sans-serif;
   display: inline-block;
-  width: 16.66%;
+  width: 25%;
   top: 10px;
   font-size: 1em; }
 
