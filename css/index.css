@@ -319,7 +319,9 @@ a {
   display: inline-block;
   width: 25%;
   top: 10px;
-  font-size: 1em; }
+  padding: 1em;
+  font-size: 1em;
+  vertical-align: middle; }
 
 .team-bio {
   position: absolute;
