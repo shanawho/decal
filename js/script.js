@@ -91,7 +91,7 @@
     $scope.tutorial = "Learn how to create a cool-looking abstract pattern which you can personalize with your own color choices and initials.";
     $scope.homework = "This week's homework is to get you comfortable with finding your away around Illustrator on your own! Follow the tutorial we did in class to make another cool pattern.";
     $scope.nextLesson = $scope.week+1;
-    $scope.download = "https://www.dropbox.com/s/p7r3k3hhgoetj0m/lesson1_files.zip?dl=0";
+    $scope.download = "https://www.dropbox.com/s/3kg5c18k8yhwt5u/lesson1_files.zip?dl=0";
   });
 
   decalApp.controller("week2Controller", function($scope) {
