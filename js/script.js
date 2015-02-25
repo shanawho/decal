@@ -111,9 +111,7 @@
     $scope.homework = "Pen tool a scene of your choice, and then go to Edit -> Edit Colors -> Recolor Artwork to create a day and night scene. Make sure you incorporate both the gradient tool and the blend tool into the work you've created.";
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
-    //$scope.download = "https://www.dropbox.com/s/1bncd3syb1p4yar/lesson3.zip?dl=0";
-
-
+    $scope.download = "https://www.dropbox.com/s/r3pnujetnv2x2m8/Week%203%20Files.zip?dl=0";
   });
 
   decalApp.controller("week4Controller", function($scope) {
