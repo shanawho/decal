@@ -121,7 +121,7 @@
     $scope.homework = "Create a either a brush (either scatter, art, or pattern) and use it to create a little doodle!";
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
-    $scope.download = "https://drive.google.com/open?id=0B-Hy6K4Zn4ZyRUh2bTZ2OGYxZGc&authuser=2";
+    $scope.download = "http://tinyurl.com/innoddecal-lesson4";
   });
 
   decalApp.controller("week5Controller", function($scope) {
