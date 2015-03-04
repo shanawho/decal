@@ -118,10 +118,10 @@
     $scope.week = 4;
     $scope.pageTitle = $scope.lessons[$scope.week-1]["title"];
     $scope.tutorial = "Learn how to make all different types of brushes and apply them in a fun poster series about New York City.";
-    $scope.homework = "Create a either a brush (either scatter, art, or pattern) and use it to create a little doodle!";
+    $scope.homework = "Create a poster of a landmark using the pen tool. Stylize your poster by applying brushes to your paths!";
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
-    $scope.download = "http://tinyurl.com/innoddecal-lesson4";
+    $scope.download = "http://tinyurl.com/lesson4-innoddecal";
   });
 
   decalApp.controller("week5Controller", function($scope) {
