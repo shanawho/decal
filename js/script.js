@@ -131,7 +131,7 @@
     $scope.homework = "No weekly homework this week! BUT you should start working on your Midterm Project. Create an infographic about anything you want. Incorporate 3 facts about your topic and make an illustration for each of them. You must use at least 3 tools that we've learned in class, so get creative and have fun!";
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
-    //$scope.download = "https://www.dropbox.com/s/ipu7zzp1q9593v4/week5.zip?dl=0";
+    $scope.download = "https://drive.google.com/open?id=0B-Hy6K4Zn4ZyM3R2enlaQ2ktR0E&authuser=2";
 
   });
 
