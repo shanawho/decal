@@ -50,9 +50,6 @@
     }).when("/lesson/11", {
       templateUrl: "pages/lesson.html",
       controller: "week11Controller"
-    }).when("/lesson/12", {
-      templateUrl: "pages/lesson.html",
-      controller: "week12Controller"
     }).when("/next", {
       templateUrl: "pages/lesson.html",
       controller: "nextController"
@@ -70,9 +67,8 @@
       {title: "Brushes, Symbols, and Effects"},
       {title: "Typography"},
       {title: "Intro to Photoshop"},
-      {title: "Layer Styles & Cutouts"},
-      {title: "Effects & Manipulation"},
-      {title: "Photo Manipulation and Gifs"},
+      {title: "Selection Tools & Masking"},
+      {title: "Blending, Layer Styles, and Effects"},
       {title: "Combining Programs"},
       {title: "Identity & Ad Design"},
       {title: "Final Showcase"}
@@ -150,7 +146,7 @@
     $scope.week = 7;
     $scope.date = "Oct 5";
     $scope.pageTitle = $scope.lessons[$scope.week-1]["title"];
-    $scope.tutorial = "Everything you make in Photoshop is built on layers. This lesson will give you an overview of techniques you can use to manipulate layer styles and create cutouts.";
+    $scope.tutorial = "This week's lesson is all about selection tools and masks. You'll learn how to cut out parts of an image as well as hide parts of an image that you don't want to see!";
     $scope.homework = "Make a poster dedicated to your favorite celebrity crush and add some cool text!"
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
@@ -162,7 +158,7 @@
     $scope.week = 8;
     $scope.date = "Oct 5";
     $scope.pageTitle = $scope.lessons[$scope.week-1]["title"];
-    $scope.tutorial = "Learn how to combine many images and textures with different blending modes to create an awesome movie poster.";
+    $scope.tutorial = "Learn how to apply special effects on text & images using blending modes, layer styles, and filter effects!";
     $scope.homework = "Create a book cover using at least two textures and two stock photos. We'll provide you a folder of textures/photos you can choose from but don't feel limited to only these!";
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
@@ -171,18 +167,6 @@
 
   decalApp.controller("week9Controller", function($scope) {
     $scope.week = 9;
-    $scope.date = "Nov 5";
-    $scope.pageTitle = $scope.lessons[$scope.week-1]["title"];
-    $scope.tutorial = "Learn how to do cool tricks and effects in Photoshop including photo manipulation and gifs! ";
-    $scope.homework = "Create a sci-fi magazine cover that may be on a magazine in the future! Use one the effects taught in class today ";
-    $scope.prevLesson = $scope.week-1;
-    $scope.nextLesson = $scope.week+1;
-    //$scope.download = "https://www.dropbox.com/s/zqq0gfrl4ollxrd/Lesson9Files.zip?dl=0";
-
-  });
-
-  decalApp.controller("week10Controller", function($scope) {
-    $scope.week = 10;
     $scope.date = "Oct 5";
     $scope.pageTitle = $scope.lessons[$scope.week-1]["title"];
     $scope.tutorial = "Learn how to combine Illustrator & Photoshop to create cool composite images and designs.";
@@ -193,8 +177,8 @@
 
   });
 
-  decalApp.controller("week11Controller", function($scope) {
-    $scope.week = 11;
+  decalApp.controller("week10Controller", function($scope) {
+    $scope.week = 10;
     $scope.date = "Oct 5";
     $scope.pageTitle = $scope.lessons[$scope.week-1]["title"];
     $scope.tutorial = "Apply everything you've learned this semester by rebranding and creating an advertisement design for a company!";
@@ -204,8 +188,8 @@
 
   });
 
-  decalApp.controller("week12Controller", function($scope) {
-    $scope.week = 12;
+  decalApp.controller("week11Controller", function($scope) {
+    $scope.week = 11;
     $scope.date = "Oct 5";
     $scope.pageTitle = $scope.lessons[$scope.week-1]["title"];
     $scope.tutorial = "Our last class will be a potluck style showcase! Bring some snacks to share and see all the work you and your classmates have accomplished this semester. The course will conclude with everyone presenting to the class their final project.";
