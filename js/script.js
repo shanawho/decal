@@ -184,7 +184,7 @@
     $scope.tutorial = "Apply everything you've learned this semester by rebranding and creating an advertisement design for a company!";
     $scope.homework = "Work on your final project";
     $scope.prevLesson = $scope.week-1;
-    //$scope.nextLesson = $scope.week+1;
+    $scope.nextLesson = $scope.week+1;
 
   });
 
@@ -194,7 +194,7 @@
     $scope.pageTitle = $scope.lessons[$scope.week-1]["title"];
     $scope.tutorial = "Our last class will be a potluck style showcase! Bring some snacks to share and see all the work you and your classmates have accomplished this semester. The course will conclude with everyone presenting to the class their final project.";
     $scope.homework = "";
-    //$scope.prevLesson = $scope.week-1;
+    $scope.prevLesson = $scope.week-1;
 
   });
 
