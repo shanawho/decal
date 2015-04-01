@@ -147,7 +147,7 @@
     $scope.date = "Oct 5";
     $scope.pageTitle = $scope.lessons[$scope.week-1]["title"];
     $scope.tutorial = "This week's lesson is all about selection tools and masks. You'll learn how to cut out parts of an image as well as hide parts of an image that you don't want to see. We'll be following the tutorial at bit.ly/lesson7tutorial and doing a group activity in class!";
-    $scope.homework = "TBA"
+    $scope.homework = "Make a promotional poster for a fictional sitcom. Use the selection tools and masking techniques from today's lesson to cut out and arrange the people you want to star in your show as well as the tools from last week to enhance the images you've chosen!"
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
     $scope.download = "https://drive.google.com/file/d/0B-Hy6K4Zn4ZybTJBTGQzLWU3bUU/view?usp=sharing";
