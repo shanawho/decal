@@ -146,7 +146,7 @@
     $scope.week = 7;
     $scope.date = "Oct 5";
     $scope.pageTitle = $scope.lessons[$scope.week-1]["title"];
-    $scope.tutorial = "This week's lesson is all about selection tools and masks. You'll learn how to cut out parts of an image as well as hide parts of an image that you don't want to see!";
+    $scope.tutorial = "This week's lesson is all about selection tools and masks. You'll learn how to cut out parts of an image as well as hide parts of an image that you don't want to see. We'll be following <a href='http://wegraphics.net/blog/tutorials/photoshop/the-creation-of-a-life-of-aquatic-sounds/'>this</a> tutorial and doing a group activity in class!";
     $scope.homework = "TBA"
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
