@@ -68,7 +68,7 @@
       {title: "Typography"},
       {title: "Intro to Photoshop"},
       {title: "Selection Tools & Masking"},
-      {title: "Blending, Layer Styles, and Effects"},
+      {title: "Blending, Layer Styles, and Filter Effects"},
       {title: "Combining Programs"},
       {title: "Identity & Ad Design"},
       {title: "Final Showcase"}
@@ -159,10 +159,10 @@
     $scope.date = "Oct 5";
     $scope.pageTitle = $scope.lessons[$scope.week-1]["title"];
     $scope.tutorial = "Learn how to apply special effects on text & images using blending modes, layer styles, and filter effects!";
-    $scope.homework = "Create a book cover using at least two textures and two stock photos. We'll provide you a folder of textures/photos you can choose from but don't feel limited to only these!";
+    $scope.homework = "Using your new knowledge of blending modes, clipping & layer masks, make a sci-fi movie poster! Put a subject or two onto a cool background, apply some textures, and give your movie a name.";
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
-    //$scope.download = "https://www.dropbox.com/s/rf1z97ovbni1jtv/HARRYP__.zip?dl=0";
+    $scope.download = "https://drive.google.com/file/d/0B-Hy6K4Zn4ZyZkNiLVZULTR6cms/view?usp=sharing";
   });
 
   decalApp.controller("week9Controller", function($scope) {
