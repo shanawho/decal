@@ -170,10 +170,10 @@
     $scope.date = "Oct 5";
     $scope.pageTitle = $scope.lessons[$scope.week-1]["title"];
     $scope.tutorial = "Learn how to combine Illustrator & Photoshop to create cool composite images and designs.";
-    $scope.homework = "Choose your favorite book and create a custom cover for it using at least two textures and two stock photos";
+    $scope.homework = "No homework this week--just start working on your final project, which is to redo the album cover of your favorite album and make a matching lyric poster!";
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
-    //$scope.download = "https://www.dropbox.com/s/es0uxkg5jcwj4x2/tutorial%2010%20files.zip?dl=0";
+    $scope.download = "https://drive.google.com/open?id=0B-Hy6K4Zn4ZyU2VySEdhcHhxNzg&authuser=2";
 
   });
 
@@ -182,10 +182,9 @@
     $scope.date = "Oct 5";
     $scope.pageTitle = $scope.lessons[$scope.week-1]["title"];
     $scope.tutorial = "Apply everything you've learned this semester by rebranding and creating an advertisement design for a company!";
-    $scope.homework = "Work on your final project";
+    $scope.homework = "Work on your final project!";
     $scope.prevLesson = $scope.week-1;
     $scope.nextLesson = $scope.week+1;
-
   });
 
   decalApp.controller("week11Controller", function($scope) {
